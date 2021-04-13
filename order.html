@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place Order: The Royal Goyal Gardens</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
+</head>
+<!-- This page has information about the products and how to place orders -->
+<body>
+    <div class="md:p-16 p-4">
+        <h1 class="font-bold">
+                <div class="text-purple-500 text-3xl">Want to cook a delicious meal or get sloshed with boozy cocktails?</div>
+                <div class="m-8"><img class = "rounded-3xl w-1/2" src="orderpic.jpg"></div>
+                <div class="text-green-500 text-2xl">We bring to you the most popular herbs from the sub-tropical forests of India.</div>
+            </a>
+        </h1>
+    <!-- The below section is a list of products displayed in box model -->
+        <div class="m-8 md:flex md:space-x-2 border-2 border-green-500 rounded p-6">
+            <div class="m-4 md:w-1/4">
+                <h2 class="font-bold text-2xl">Rosemary</h2>
+                <h2 class="font-bold">$2/oz</h2>
+            </div>
+            <div class="m-4 md:w-1/4">
+                <h2 class="font-bold text-2xl">Thyme</h2>
+                <h2 class="font-bold">$3/oz</h2>
+            </div>
+            <div class="m-4 md:w-1/4">
+                <h2 class="font-bold text-2xl">Basil</h2>
+                <h2 class="font-bold">$2.5/oz</h2>
+            </div>
+            <div class="m-4 md:w-1/4">
+                <h2 class="font-bold text-2xl">Mint</h2>
+                <h2 class="font-bold">$2/oz</h2>
+            </div>
+        </div>
+    <!-- The below secion is a form to place orders -->
+        <h1 class="mt-8 font-bold text-3xl text-center">Ready to Order?</h1>
+        <form netlify>
+        <label class="block mt-4 font-bold" for="name">Your name?</label>
+        <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
+        focus:border-purple-500" type="text" id="name" name="name">
+
+        <label class="block mt-4 font-bold" for="email">Your email?</label>
+        <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
+        focus:border-purple-500" type="text" id="email" name="email">
+        
+        <label class="block mt-4 font-bold" for="order">What would you like to order?</label>
+        <textarea rows="6" class="p-2 w-full border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
+        focus:border-purple-500" id="order" name="order"></textarea>
+        
+        <button class="block mt-4 text-white bg-purple-500 rounded px-4 py-2">Submit</button>
+        </form>
+
+        <!-- The below section is used to navigate to other pages -->
+        <div class="mt-16 md:flex md:space-x-20">
+            <div class="font-bold"><a href="index.html">Home</a></div>
+            <div class="font-bold"><a href="order.html">Place Order</a></div>
+            <div class="font-bold"><a href="team.html">Meet the Team</a></div>
+            <div class="font-bold"><a href="contactus.html">Contact Us</a></div>
+        </div>
+    </div>   
+</body>
+</html>
