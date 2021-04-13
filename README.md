@@ -10,7 +10,7 @@ The website has 4 html docs:
 3. Meet the Team (info about team members)
 4. Contac Us (contact details of the org)
 
-The webpages are linked to each other to help customers easily navigate from one page to another. The HTML guidelines have been followed and all elemnets have been used at least once.
+The webpages are linked to each other to help customers easily navigate from one page to another. 
 
 Homework 2 solution details: 
 1. Added Tailwind CSS framework on all webpages. Used colors (purple, green, blue), typography (bold), borders (green borders), sizing (2-6xl) and box model (green box with margins/ padding)
