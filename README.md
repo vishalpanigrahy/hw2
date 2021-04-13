@@ -16,4 +16,4 @@ Homework 2 solution details:
 1. Added Tailwind CSS framework on all webpages. Used colors (purple, green, blue), typography (bold), borders (green borders), sizing (2-6xl) and box model (green box with margins/ padding)
 2. Used flexbox with md breakpoints on all webpages 
 3. Added form on "Place Order" webpage (order.html) to collect orders 
-4. 
+4. Launched on the internet using Netlify. URL: https://elegant-leavitt-bf41aa.netlify.app/
